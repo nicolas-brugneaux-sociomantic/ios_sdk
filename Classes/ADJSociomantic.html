@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>ADJSociomantic Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">SociomanticPlugin </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Sociomantic Labs</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/injectCartIntoEvent:cart:">+ injectCartIntoEvent:cart:</option>
+		
+		<option value="//api/name/injectConfirmedTransactionIntoEvent:transactionId:withProducts:">+ injectConfirmedTransactionIntoEvent:transactionId:withProducts:</option>
+		
+		<option value="//api/name/injectConfirmedTransactionIntoEvent:transactionId:withProducts:withParameters:">+ injectConfirmedTransactionIntoEvent:transactionId:withProducts:withParameters:</option>
+		
+		<option value="//api/name/injectCustomerDataIntoEvent:withData:">+ injectCustomerDataIntoEvent:withData:</option>
+		
+		<option value="//api/name/injectHomePageIntoEvent:">+ injectHomePageIntoEvent:</option>
+		
+		<option value="//api/name/injectLeadIntoEvent:leadID:">+ injectLeadIntoEvent:leadID:</option>
+		
+		<option value="//api/name/injectLeadIntoEvent:leadID:andConfirmed:">+ injectLeadIntoEvent:leadID:andConfirmed:</option>
+		
+		<option value="//api/name/injectTransactionIntoEvent:transactionId:withProducts:">+ injectTransactionIntoEvent:transactionId:withProducts:</option>
+		
+		<option value="//api/name/injectTransactionIntoEvent:transactionId:withProducts:withParameters:">+ injectTransactionIntoEvent:transactionId:withProducts:withParameters:</option>
+		
+		<option value="//api/name/injectViewListingIntoEvent:withCategories:">+ injectViewListingIntoEvent:withCategories:</option>
+		
+		<option value="//api/name/injectViewListingIntoEvent:withCategories:withDate:">+ injectViewListingIntoEvent:withCategories:withDate:</option>
+		
+		<option value="//api/name/injectViewProductIntoEvent:productId:">+ injectViewProductIntoEvent:productId:</option>
+		
+		<option value="//api/name/injectViewProductIntoEvent:productId:withParameters:">+ injectViewProductIntoEvent:productId:withParameters:</option>
+		
+	</optgroup>
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">ADJSociomantic Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>ADJSociomantic.h<br />ADJSociomantic.m</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Object exposing the different methods of the Sociomantic plugin for Adjust.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/injectCustomerDataIntoEvent:withData:" title="injectCustomerDataIntoEvent:withData:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectCustomerDataIntoEvent:withData:">+&nbsp;injectCustomerDataIntoEvent:withData:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Methods uses the the given dictionary, filters it and injects it into the event.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectCustomerDataIntoEvent:(ADJEvent *)<em>event</em> withData:(NSDictionary *)<em>data</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p><code>NSDictionary</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Methods uses the the given dictionary, filters it and injects it into the event.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectHomePageIntoEvent:" title="injectHomePageIntoEvent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectHomePageIntoEvent:">+&nbsp;injectHomePageIntoEvent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a home page view into an Adjust event.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectHomePageIntoEvent:(ADJEvent *)<em>event</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a home page view into an Adjust event.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectViewListingIntoEvent:withCategories:" title="injectViewListingIntoEvent:withCategories:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectViewListingIntoEvent:withCategories:">+&nbsp;injectViewListingIntoEvent:withCategories:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a category page view into an Adjust event.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectViewListingIntoEvent:(ADJEvent *)<em>event</em> withCategories:(NSArray *)<em>categories</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>categories</code></th>
+						<td><p><code>NSArray</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a category page view into an Adjust event.</p>
+
+<p>Note: the category array will be filtered to only contain strings.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectViewListingIntoEvent:withCategories:withDate:" title="injectViewListingIntoEvent:withCategories:withDate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectViewListingIntoEvent:withCategories:withDate:">+&nbsp;injectViewListingIntoEvent:withCategories:withDate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a category page view into an Adjust event.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectViewListingIntoEvent:(ADJEvent *)<em>event</em> withCategories:(NSArray *)<em>categories</em> withDate:(NSString *)<em>date</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>categories</code></th>
+						<td><p><code>NSArray</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>date</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a category page view into an Adjust event.</p>
+
+<p>Note: the category array will be filtered to only contain strings.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectViewProductIntoEvent:productId:" title="injectViewProductIntoEvent:productId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectViewProductIntoEvent:productId:">+&nbsp;injectViewProductIntoEvent:productId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a product page view into an Adjust event.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectViewProductIntoEvent:(ADJEvent *)<em>event</em> productId:(NSString *)<em>productId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>productId</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a product page view into an Adjust event.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectViewProductIntoEvent:productId:withParameters:" title="injectViewProductIntoEvent:productId:withParameters:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectViewProductIntoEvent:productId:withParameters:">+&nbsp;injectViewProductIntoEvent:productId:withParameters:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a product page view into an Adjust event.
+Parameters dictionary will be filtered by keys and only keep the key-value
+pairs where the key can be found in the
+<code></code>SCMSingleton<code>.properties[@"product"]</code> dictionary. These keys can be also
+found in the file <code>SCMAliases.h</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectViewProductIntoEvent:(ADJEvent *)<em>event</em> productId:(NSString *)<em>productId</em> withParameters:(NSDictionary *)<em>parameters</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>productId</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p><code>NSDictionary</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a product page view into an Adjust event.
+Parameters dictionary will be filtered by keys and only keep the key-value
+pairs where the key can be found in the
+<code></code>SCMSingleton<code>.properties[@"product"]</code> dictionary. These keys can be also
+found in the file <code>SCMAliases.h</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectCartIntoEvent:cart:" title="injectCartIntoEvent:cart:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectCartIntoEvent:cart:">+&nbsp;injectCartIntoEvent:cart:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a basket page view. The basket into an Adjust event.
+used to create the request is the given array of products.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectCartIntoEvent:(ADJEvent *)<em>event</em> cart:(NSArray *)<em>products</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>products</code></th>
+						<td><p><code>NSArray</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a basket page view. The basket into an Adjust event.
+used to create the request is the given array of products.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectConfirmedTransactionIntoEvent:transactionId:withProducts:" title="injectConfirmedTransactionIntoEvent:transactionId:withProducts:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectConfirmedTransactionIntoEvent:transactionId:withProducts:">+&nbsp;injectConfirmedTransactionIntoEvent:transactionId:withProducts:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a confirmed sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectConfirmedTransactionIntoEvent:(ADJEvent *)<em>event</em> transactionId:(NSString *)<em>transactionID</em> withProducts:(NSArray *)<em>products</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>transactionID</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>products</code></th>
+						<td><p><code>NSArray</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a confirmed sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectConfirmedTransactionIntoEvent:transactionId:withProducts:withParameters:" title="injectConfirmedTransactionIntoEvent:transactionId:withProducts:withParameters:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectConfirmedTransactionIntoEvent:transactionId:withProducts:withParameters:">+&nbsp;injectConfirmedTransactionIntoEvent:transactionId:withProducts:withParameters:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a confirmed sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.
+The same thing for the transaction option parameters, they are filtered
+according to <a href="../Classes/SCMSingleton.html">SCMSingleton</a>.properties[@&ldquo;sale&rdquo;]`</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectConfirmedTransactionIntoEvent:(ADJEvent *)<em>event</em> transactionId:(NSString *)<em>transactionID</em> withProducts:(NSArray *)<em>products</em> withParameters:(NSDictionary *)<em>parameters</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>transactionID</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>products</code></th>
+						<td><p><code>NSArray</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p><code>NSDictionary</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a confirmed sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.
+The same thing for the transaction option parameters, they are filtered
+according to <a href="../Classes/SCMSingleton.html">SCMSingleton</a>.properties[@&ldquo;sale&rdquo;]`</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectTransactionIntoEvent:transactionId:withProducts:" title="injectTransactionIntoEvent:transactionId:withProducts:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectTransactionIntoEvent:transactionId:withProducts:">+&nbsp;injectTransactionIntoEvent:transactionId:withProducts:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a non-confirmed sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.
+The same thing for the transaction option parameters, they are filtered
+according to <a href="../Classes/SCMSingleton.html">SCMSingleton</a>.properties[@&ldquo;sale&rdquo;]`</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectTransactionIntoEvent:(ADJEvent *)<em>event</em> transactionId:(NSString *)<em>transactionID</em> withProducts:(NSArray *)<em>products</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>transactionID</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>products</code></th>
+						<td><p><code>NSArray</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a non-confirmed sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.
+The same thing for the transaction option parameters, they are filtered
+according to <a href="../Classes/SCMSingleton.html">SCMSingleton</a>.properties[@&ldquo;sale&rdquo;]`</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectTransactionIntoEvent:transactionId:withProducts:withParameters:" title="injectTransactionIntoEvent:transactionId:withProducts:withParameters:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectTransactionIntoEvent:transactionId:withProducts:withParameters:">+&nbsp;injectTransactionIntoEvent:transactionId:withProducts:withParameters:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.
+The same thing for the transaction option parameters, they are filtered
+according to <a href="../Classes/SCMSingleton.html">SCMSingleton</a>.properties[@&ldquo;sale&rdquo;]`</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectTransactionIntoEvent:(ADJEvent *)<em>event</em> transactionId:(NSString *)<em>transactionID</em> withProducts:(NSArray *)<em>products</em> withParameters:(NSDictionary *)<em>parameters</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>transactionID</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>products</code></th>
+						<td><p><code>NSArray</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p><code>NSDictionary</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a sale page view into an Adjust event.
+The array will be filtered according to the keys of
+<code></code>SCMSingleton<code>.properties[@"basket"]</code>.
+The same thing for the transaction option parameters, they are filtered
+according to <a href="../Classes/SCMSingleton.html">SCMSingleton</a>.properties[@&ldquo;sale&rdquo;]`</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectLeadIntoEvent:leadID:" title="injectLeadIntoEvent:leadID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectLeadIntoEvent:leadID:">+&nbsp;injectLeadIntoEvent:leadID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a lead page into an Adjust event.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectLeadIntoEvent:(ADJEvent *)<em>event</em> leadID:(NSString *)<em>transactionID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>leadID</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a lead page into an Adjust event.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/injectLeadIntoEvent:leadID:andConfirmed:" title="injectLeadIntoEvent:leadID:andConfirmed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/injectLeadIntoEvent:leadID:andConfirmed:">+&nbsp;injectLeadIntoEvent:leadID:andConfirmed:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method injects a lead page into an Adjust event.
+It can be confirmed or not.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)injectLeadIntoEvent:(ADJEvent *)<em>event</em> leadID:(NSString *)<em>transactionID</em> andConfirmed:(BOOL)<em>confirmed</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p><code>ADJEvent</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>leadID</code></th>
+						<td><p><code>NSString</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>void</code></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Method injects a lead page into an Adjust event.
+It can be confirmed or not.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">ADJSociomantic.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Sociomantic Labs. All rights reserved. Updated: 2015-03-31</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
